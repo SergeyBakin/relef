@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    background-color: #f0f0f0;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+.field {
+    margin: 0 20px;
+}
+.pagination {
+    display: inline-flex;
+    list-style-type: none;
+}
+li {
+    margin-right: 10px;
+    color: black;
+}
+li.active {
+    background: yellow;
+    border-radius: 50%;
+}
+.page {
+    background-color: #f0ffff;
+    padding: 10px;
+    border-radius: 50%;
+    color: -webkit-link;
+}
+.page.active {
+    background-color: yellow;
+}
